@@ -19,8 +19,8 @@ query listRepos($queryString: String!){
         description 
         isArchived
         isPrivate
-        https://github.com/johncoder197/GraphQL.git
-        johncoder197{
+        url
+        user{
          login
          id
          __typename
